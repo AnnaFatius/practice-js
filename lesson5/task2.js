@@ -19,4 +19,6 @@ switch(true) {
     case averageGrade <=100:
         console.log('Відмінно');
         break;
+    default:
+        console.log('error validation of averageGrade');
 }

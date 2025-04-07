@@ -8,7 +8,7 @@
 console.log("Використовуючи цикл for")
 
 const number1 = 2;
-for(let i= 1; i<=10; i++){
+for(let i = 1; i <= 10; i++){
     console.log(`${number1} x ${i} = ${number1 * i}`);
 }
 
