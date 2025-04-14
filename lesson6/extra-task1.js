@@ -1,17 +1,17 @@
 //Task 1
 function shortLongShort(str1 = '', str2 = '') {
     if(str1.length > str2.length) {
-        console.log(`${str2}${str1}${str2}`)
+        return(`${str2}${str1}${str2}`)
     } else if (str1.length < str2.length) {
-        console.log(`${str1}${str2}${str1}`)
+        return(`${str1}${str2}${str1}`)
     }
 }
 
-shortLongShort('AAAA', 'bbb')
-shortLongShort('AA', 'bbb')
-shortLongShort('1', '22')
-shortLongShort('22', '1')
-shortLongShort('  ', '1')
+console.log(shortLongShort('AAAA', 'bbb'))
+console.log(shortLongShort('AA', 'bbb'))
+console.log(shortLongShort('1', '22'))
+console.log(shortLongShort('22', '1'))
+console.log(shortLongShort('  ', '1'))
 
 
 //Task 2
