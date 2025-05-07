@@ -1,4 +1,4 @@
-let string = 'Hello';
+let string = 'Hello team';
 let number = 23;
 let javaScript = true;
 let zero = null;
