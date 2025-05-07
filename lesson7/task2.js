@@ -5,10 +5,10 @@
 // Фунція повинна викликатися, доки num не стане менше або рівне 0.
 // Викличте вашу функцію з аргументом, наприклад, 5, щоб почати рекурсивний лічильник.
 
-function numToZero(num){
-    console.log(num);
-    if (num > 0) {
-        numToZero(num -1);
-    }
+function numToZero(num) {
+	console.log(num);
+	if (num > 0) {
+		numToZero(num - 1);
+	}
 }
 numToZero(6);

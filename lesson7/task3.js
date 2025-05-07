@@ -8,36 +8,35 @@
 // -Огорніть кожен окремий виклик функції divide в try…catch.Використовуючи блок finally, виведіть повідомлення "Робота завершена" в консоль,
 // навіть якщо помилка виникла або не виникла.
 
-function divide(numerator, denominator){
-    
-    if (denominator === 0){
-        throw new Error("Ділення на 0 неможливе");
-    }
-    if (typeof numerator !== 'number'|| typeof denominator !== 'number'){
-        throw new Error("Один з параметрів не є числом");
-    }
-    return numerator / denominator;
+function divide(numerator, denominator) {
+	if (denominator === 0) {
+		throw new Error('Ділення на 0 неможливе');
+	}
+	if (typeof numerator !== 'number' || typeof denominator !== 'number') {
+		throw new Error('Один з параметрів не є числом');
+	}
+	return numerator / denominator;
 }
 try {
-    console.log(divide(22, 2));
-} catch (error){
-    console.log(error.message);
+	console.log(divide(22, 2));
+} catch (error) {
+	console.log(error.message);
 } finally {
-    console.log('Робота завершена')
-}
-
-try {
-    console.log(divide(10, 0));
-} catch (error){
-    console.log(error.message);
-} finally {
-    console.log('Робота завершена')
+	console.log('Робота завершена');
 }
 
 try {
-    console.log(divide('erty5', 10));
-} catch (error){
-    console.log(error.message);
+	console.log(divide(10, 0));
+} catch (error) {
+	console.log(error.message);
 } finally {
-    console.log('Робота завершена')
+	console.log('Робота завершена');
+}
+
+try {
+	console.log(divide('erty5', 10));
+} catch (error) {
+	console.log(error.message);
+} finally {
+	console.log('Робота завершена');
 }
