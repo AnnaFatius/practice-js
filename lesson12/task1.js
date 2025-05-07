@@ -1,8 +1,8 @@
-let string = 'Hello team';
+let string = "Hello team";
 let number = 23;
-let javaScript = true;
-let zero = null;
-let itIsUndefined;
+let javaScript = true
+let zero = null
+let itIsUndefined
 
 console.log(string);
 console.log(number);
