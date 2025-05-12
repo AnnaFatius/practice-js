@@ -10,19 +10,18 @@
 // Створіть об'єкт car3. Використайте оператор spread, щоб додати всі властивості що є в car1 та car2 до об’єкту car3.
 // Виведіть об'єкт car3 в консоль.
 
-
 const car1 = {
-    brand1: 'Audi',
-    model1: 'RS7',
-    year1: 2024,
+	brand1: 'Audi',
+	model1: 'RS7',
+	year1: 2024,
 };
 
 const car2 = {
-    brand2: 'Volkswagen',
-    model2: 'Jetta',
-    owner: 'Anna',
+	brand2: 'Volkswagen',
+	model2: 'Jetta',
+	owner: 'Anna',
 };
 
-const car3 = {...car1, ...car2};
+const car3 = { ...car1, ...car2 };
 
 console.log(car3);

@@ -4,7 +4,7 @@
 // Обчисліть площу кола за формулою π * radius^2 і виведіть результат.
 
 let radius = 15;
-let area1 = (Math.PI*(radius*radius)); //Math.PI*(radius**2) / Math.PI*(Math.pow(radius,2)
+let area1 = Math.PI * (radius * radius); //Math.PI*(radius**2) / Math.PI*(Math.pow(radius,2)
 console.log(area1.toFixed(2)); // ".toFixed(2)" округлили до 2х знач після коми
 
 // Завдання 4.2
@@ -22,7 +22,7 @@ console.log(area2.toFixed(2));
 // Створіть змінну height і присвойте їй числове значення висоти циліндра.
 // Обчисліть об'єм циліндра за формулою π * radius^2 * height і виведіть результат.
 
-let radius2 = 27
-let height = 19
-let result = (Math.PI * Math.pow(radius, 2) * height)
+let radius2 = 27;
+let height = 19;
+let result = Math.PI * Math.pow(radius2, 2) * height;
 console.log(result.toFixed(2));

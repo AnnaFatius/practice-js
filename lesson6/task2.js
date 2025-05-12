@@ -4,9 +4,9 @@
 // Якщо age відповідає умові, поверніть true, інакше поверніть false.
 // Викличте вашу функцію з аргументами 25 і 15, і виведіть результат (чи є особа дорослою) в консоль для кожного випадку.
 
-function isAdult(age){
-    return(age>=18)
+function isAdult(age) {
+	return age >= 18;
 }
 
-console.log("Особа є дорослою", isAdult(25))
-console.log("Особа є дорослою", isAdult(15))
+console.log('Особа є дорослою', isAdult(25));
+console.log('Особа є дорослою', isAdult(15));
